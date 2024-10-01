@@ -2,3 +2,23 @@
 @import url('./assets/css/reset.css');
 
 
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+.header__logo{
+    height: 4rem;
+    width: 15.6rem;
+}
+
+
+.banner{
+    display: flex;
+    gap: 2rem;
+    max-width: 100rem;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}

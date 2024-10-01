@@ -18,3 +18,19 @@
 [data-contexto="descanso-longo"] {
     --main-bg-color: linear-gradient(180deg, #1875E9 0%, #041832 48.44%, #01080E 100%);
 }
+
+html{
+    background: var(--main-bg-color);
+    height: 100vh;
+    font-size: 10px;
+}
+
+body{
+    background-image: url('../img/pattern.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
