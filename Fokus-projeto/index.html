@@ -8,6 +8,7 @@
     <title>Fokus</title>
 </head>
 <body>
+
     <header class="header">
         <h1 class="header__logo"><img src="./assets/img/logo.png" alt="Logotipo Fokus"></h1>
     </header>
@@ -24,10 +25,57 @@
 
     <main class="main">
 
+        <div class="main__app__card">
+
+            <div class="main__options">
+                <nav class="main__nav">
+                    <ul class="main__nav--list">
+                        <li><button class="foco" type="button">Foco</button></li>
+                        <li><button class="curto" type="button">Descanso curto</button></li>
+                        <li><button class="longo" type="button">Descanso longo</button></li>
+                    </ul>
+                </nav>
+
+                <div class="time">...</div>
+
+                <ul class="app__card-list">
+                    <li class="app__card-list-item">
+                        <label class="toggle">
+                            <input class="toggle-checkbox" type="checkbox" id="alternar-musica">
+                            <div class="toggle-switch"></div>
+                        </label>
+                    </li>
+                    <li class="app__card-list-item">
+                        <label class="app__card-list-label" for="alternar-musica">
+                            Música
+                        </label>
+                    </li>
+                </ul>
+
+                <button class="comecar" type="button">Comecar</button>
+            </div>
+    
+            <div class="main__desc--tarefa">
+                <p>#Em andamento:</p>
+                <p id="tarefa__name">Nome da tarefa em andamento</p>
+            </div>
+        </div>
+        
+        <div class="main__divisor"></div>
+
+        <div class="main__list__tarefa">
+            <div>
+                <h2 class="main__title">Lista de tarefas:</h2>
+                <img class="list__tarefa--menu" src="./assets/img/elipse.png" alt="Botao da lista de tarefas">
+            </div>
+        </div>
+
+
     </main>
 
     <footer class="footer">
-
+        <p>Projeto fictício e sem fins comerciais. Imagens geradas por IA no Adobe Firefly.</p>
+        <p>Desenvolvido por Alura. </p>
     </footer>
 
     <script src="./main.js"></script>

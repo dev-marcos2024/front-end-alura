@@ -32,5 +32,7 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 8rem;
+    gap: 4rem;
+    align-items: center;
+    color: var(--color-secondary);
 }
