@@ -24,3 +24,15 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
+
+#erro__cep{
+    color: red;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    display: none;
+}
+#erro__cep img{
+    width: 2rem;
+    height: 2rem;
+}
