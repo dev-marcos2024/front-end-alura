@@ -1,0 +1,55 @@
+:root {
+    /* Colors */
+    --branco: #fff;
+    --preto: #000;
+    --neutral-c: #f5f5f5;
+    --cinza-escuro: #8c8c8c;
+    --grafite: #222;
+    --vermelho: #b81515;
+}
+
+* {
+    font-family: Montserrat, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn{
+    background-color: var(--vermelho);
+    color: var(--branco);
+    width: 17.5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.btn:hover{
+    background-color: rgba(255, 0, 0, 0.76);
+}
+
+
+/*===> TITULO PADRAO*/
+.titulo-padrao{
+    text-align: center;
+}
+.titulo-padrao h3{
+    margin: auto;
+    margin-bottom: 1REM;
+    font-size: 2rem;
+    color: var(--grafite);
+}
+.titulo-padrao div{
+    border: 2px solid var(--vermelho);
+    width: 11.25rem;
+    margin: auto;
+}
+

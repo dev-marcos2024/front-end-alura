@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore pacotes de viagem incríveis e fique por dentro das últimas novidades no blog da Jornada. Entre em contato para planejar sua próxima aventura.">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Blog Post</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-container container " aria-label="Main menu">
+
+            <div class="header-logo">
+                <h1><a href="../../index.html"><img src="./imgs/logo-provisoria-branca.png" alt="Logotipo da Jornada"></a></h1>
+            </div>
+
+            <div class="header-logo-reduzido">
+                <h1><a href="../../index.html"><img src="./imgs/Logo-provisória-reduzida.png" alt="Logotipo da Jornada"></a></h1>
+            </div>
+
+            <div class="header-menu-amburger">
+                <img src="./imgs/menu.png" alt="Menu de amburger">
+            </div>
+
+            <nav class="header-menu">
+                <ul>
+                    <li><a href="../blogpost/index.html">Blog</a></li>
+                    <li><a href="../destino/index.html">Pacote de viagem</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner" aria-labelledby="banner-heading">
+        <div class="container">
+            <div class="banner-container">
+                <div>
+                    <h2 id="banner-heading">Entre em contato!</h2>
+                    <div></div>
+                </div>
+                <p>Dúvidas, sugestões, problemas para resolver? Temos uma equipe de plantão para ajudar você!</p>
+            </div>
+        </div>
+        <nav class="header-menu menu-oucuto">
+            <ul>
+                <li><a href="../blogpost/index.html">Blog</a></li>
+                <li><a href="../destino/index.html">Pacote de viagem</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <main>
+
+        <div class="container">
+            <div class="main-container">
+
+                <div class="titulo-padrao">
+                    <h3>Preencha o formulário:</h3>
+                    <div></div>
+                </div>
+                
+                <p class="description">Temos uma equipe sempre em prontidão para resolver suas dúvidas, problemas, trazer dicas e orientações objetivas para tornar sua experiência o mais prazerosa e tranquila possível. Preencha seus dados que vamos retornar seu contato conforme a urgência do seu chamado. Pode confiar!</p>
+
+                <form action="/submit" method="post">
+
+                    <input type="text" id="name" name="name" placeholder=" Seu nome" required>
+            
+                    <div class="contatos">
+                
+                        <input type="tel" id="telefone" name="telefone" placeholder="Telefone" required>
+                       
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+            
+                    <input type="text" id="assunto" name="assunto" placeholder="Assunto" required>
+
+                    <div class="campo-assunto">
+                        <label for="assunto">Assunto</label>
+                        <textarea name="assunto" id="assunto"></textarea>
+                    </div>
+            
+                    <button class="btn" type="submit">Enviar!</button>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="img-rodape">
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+
+                <div class="footer-contacts">
+                    <div class="footer-logo">
+                        <img src="./imgs/logo-provisoria-branca.png" alt="Logotipo da Jornada">
+                    </div>
+                    <p>Horário de atendimento: 08h - 20h (Segunda a Sábado)</p>
+                    <p>Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
+                </div>
+        
+                <section aria-labelledby="social-media-heading">
+                    <h3 id="social-media-heading">Conecte-se conosco nas redes sociais:</h3>
+                    <h3 id="social-media-heading-none">Acesse nossas redes:</h3>
+                    <div class="social-midia">
+                        <a href="https://wa.me/XXXX" aria-label="Converse pelo Whatsapp">
+                            <img src="./imgs/Whatsapp.png" alt="Ícone do Whatsapp">
+                        </a>
+                        <a href="https://www.instagram.com/XXXX" aria-label="Nosso Instagram">
+                            <img src="./imgs/Instragam-1.png" alt="Ícone do Instagram">
+                        </a>
+                        <a href="https://twitter.com/XXXX" aria-label="Nosso Twitter">
+                            <img src="./imgs/Twiter-1.png" alt="Ícone do Twitter">
+                        </a>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </footer>
+    
+    <script src="../../assets/js/index.js"></script>
+</body>
+</html>

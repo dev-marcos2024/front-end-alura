@@ -1,0 +1,195 @@
+@import url('../global/global.css');
+@import url('../global/header.css');
+@import url('../global/footer.css');
+
+/*! ================  GLOBAL ====================*/
+.container{
+    max-width: 75rem;
+    margin: auto;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+input , textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.25rem;
+}
+.menu-oucuto{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.836);
+    width: 20rem;
+    display: none;
+}
+.menu-oucuto ul {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    justify-content: start;
+}
+
+/*! ================  BANNER ====================*/
+.banner{
+    min-height: 38.75rem;
+    background-image: url('./imgs/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+}
+
+.banner-container{
+    color: var(--branco);
+    width: 100%;
+}
+
+.banner-container p{
+    font-size: 2rem;
+    max-width: 36.188rem;
+    width: 100%;
+}
+
+.banner-container div div{
+    border: 2px solid var(--vermelho);
+    max-width: 11.25rem;
+    margin-top: 1rem;
+}
+#banner-heading{
+    font-size: 3rem;
+}
+
+
+/*! ================  Formulario ====================*/
+.main-container{
+    margin: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+.description{
+    font-size: 1.25rem;
+    text-align: center;
+    color: var(--grafite);
+    line-height: 2rem;
+}
+
+form{
+    max-width: 49.375rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    color: var(--cinza-escuro);
+    width: 100%;
+}
+.contatos{
+    display: flex;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.campo-assunto{
+    width: 100%;
+}
+
+input{
+    height: 2.5rem;
+    border-bottom: 3px solid #D9D9D9;
+    margin-bottom: 4rem;
+}
+label{
+    font-size: 1.25rem;
+}
+
+textarea{
+    border: 2px solid #D9D9D9;
+    height: 5.625rem;
+    border-radius: 8px;
+    margin-top: 8px;
+    resize: none;
+}
+button{
+    margin-top: 2rem;
+    height: 4rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+input:focus{
+    border-bottom: 3px solid var(--vermelho);
+}
+
+textarea:focus{
+    border: 2px solid var(--vermelho);
+}
+
+/*! ================  Rodape ====================*/
+.img-rodape{
+    background-image: url('./imgs/Imagem-rodape.png');
+    min-height: 37.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+footer{
+    margin-top: 0;
+}
+
+/*! ================  Ressponsividade ====================*/
+@media (max-width: 1100px) {
+    .container{
+        padding:0 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        padding: 0;
+        max-width: 40.5rem;
+    }
+    .header-menu{
+        display: none;
+    }
+    .header-menu-amburger{
+        display: flex;
+        cursor: pointer;
+    }
+    [href="#"]{
+        border: none;
+    }
+    .contatos{
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .container{
+        max-width:19.5rem;
+    }
+    .header-logo{
+        display: none;
+    }
+    .header-logo-reduzido{
+        display: flex;
+    }
+    
+   #social-media-heading-none{
+    display: flex;
+   }
+   #social-media-heading{
+    display: none;
+   }
+}
+
+@media (max-width: 320px) {
+    .container{
+        padding: 0 2rem;
+    }
+}
